@@ -20,7 +20,6 @@ def train_model(X_train, y_train):
     model
         Trained machine learning model.
     """
-    # TODO: implement the function
 
     # Initialize the RandomForestClassifier.
     # Set a random state for reproducibility.
@@ -72,7 +71,6 @@ def inference(model, X):
     preds : np.array
         Predictions from the model.
     """
-    # TODO: implement the function
     # Use predict method to get binary classification results.
     preds = model.predict(X)
     return preds
@@ -89,7 +87,7 @@ def save_model(model, path):
     path : str
         Path to save pickle file.
     """
-    # TODO: implement the function
+
     # Write the model to a file using pickle.
     with open(path, "wb") as f:
         pickle.dump(model, f)
@@ -98,7 +96,7 @@ def save_model(model, path):
 
 def load_model(path):
     """ Loads pickle file from `path` and returns it."""
-    # TODO: implement the function
+
     # Load the model from a file in binary mode using pickle.
     with open(path, "rb") as f:
         model = pickle.load(f)
@@ -150,7 +148,7 @@ def performance_on_categorical_slice(
     fbeta : float
 
     """
-    # TODO: implement the function
+
     # Get the slice of the data using the column name and slice value.
     slice_df = data[data[column_name] == slice_value]
 

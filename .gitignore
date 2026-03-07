@@ -176,4 +176,10 @@ pyrightconfig.json
 # FastAPI setup
 fastapi/
 
+# VS Code settings
+.vscode/
+
+# Jupyter Notebook intermediate files
+*.ipynb
+
 # End of https://www.toptal.com/developers/gitignore/api/python
