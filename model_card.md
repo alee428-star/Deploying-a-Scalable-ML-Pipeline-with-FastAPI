@@ -20,7 +20,9 @@ Evaluation was performed on the held‑out test split from the same dataset. No 
 
 The model was evaluated using precision, recall, and F1 score, consistent with the  project rubric. The model’s performance on the test set reflects a precision‑oriented  classifier that identifies high‑income individuals conservatively while missing a  portion of true positives.
 
-* Precision: 0.7918 * Recall: 0.5786 * F1: 0.6686
+* Precision: 0.7918 
+* Recall: 0.5786 
+* F1: 0.6686
 
 Slice‑level evaluation was performed across categorical features. To focus on meaningful patterns, the visualizations below include only slices with at least 100 samples. Larger slices show stable behavior close to the overall metrics, while lower‑education and  service‑related groups exhibit reduced recall and F1. Very small slices were excluded because they produced misleading extremes (e.g., recall = 1.0) driven by tiny sample sizes rather than true model capability.
 
