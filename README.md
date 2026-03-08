@@ -1,5 +1,12 @@
 Working in a command line environment is recommended for ease of use with git and dvc. If on Windows, WSL1 or 2 is recommended.
 
+# Deploying a Scalable ML Pipeline with FastAPI
+
+This repository contains the full implementation of the Udacity ML DevOps project.
+
+## Project Repository
+GitHub Repo: https://github.com/alee428-star/Deploying-a-Scalable-ML-Pipeline-with-FastAPI
+
 # Environment Set up (pip or conda)
 * Option 1: use the supplied file `environment.yml` to create a new environment with conda
 * Option 2: use the supplied file `requirements.txt` to create a new environment with pip
@@ -12,7 +19,8 @@ Working in a command line environment is recommended for ease of use with git an
     * Make sure you set up the GitHub Action to have the same version of Python as you used in development.
 
 # Data
-* Download census.csv and commit it to dvc.
+* Download census.csv and commit it to dvc. (This step not completed per rubric.)
+    * The dataset (census.csv) is included in the data/ directory and loaded directly by the training script.
 * This data is messy, try to open it in pandas and see what you get.
 * To clean it, use your favorite text editor to remove all spaces.
 
